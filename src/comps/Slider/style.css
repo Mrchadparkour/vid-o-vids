@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+.SliderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.Slider {
+  background: #ddd;
+  width: 960px;
+  height: 5vh;
+  border-radius: 2.5vh;
+  -webkit-appearance: none;
+}
+
+.Slider::-moz-range-thumb {
+  -webkit-appearance: none;
+  background: #fc5b30;
+  border: 0;
+  height: 7vh;
+  width: 7vh;
+  border-radius: 50%;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #fc5b30;
+  border: 0;
+  height: 7vh;
+  width: 7vh;
+  border-radius: 50%;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-moz-focus-outer {
+    -webkit-appearance: none;
+    border: 0;
+}
+
+input[type=range]::-moz-range-track{
+  -webkit-appearance: none;
+  visibility: hidden;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  visibility: hidden;
+}
